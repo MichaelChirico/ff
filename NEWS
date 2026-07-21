@@ -1,3 +1,14 @@
+    CHANGES IN ff VERSION 4.5.3
+    
+BUG FIXES
+
+    o structure() is now called with "dim", "dimnames", "names" 
+      instead of the old “special” substitute attributes' names ".Dim", ".Dimnames", ".Names"
+    o ff no longer calls bit:::R_bit_as_hi directly, 
+      instead .bit_R_bit_as_hi is created during .onLoad
+
+
+
     CHANGES IN ff VERSION 4.5.2
     
 BUG FIXES
